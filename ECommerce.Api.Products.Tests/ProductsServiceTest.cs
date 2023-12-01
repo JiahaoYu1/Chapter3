@@ -78,11 +78,12 @@ namespace ECommerce.Api.Products.Tests
 
         private void CreateProducts(ProductsDbContext dbContext)
         {
+            int existingProductsCount = dbContext.Products.Count();
             for (int i = 1; i < 10; i++)
             {
                 dbContext.Products.Add(new Product()
                 {
-                    Id = i,
+                    Id = existingProductsCount + i,  // Start with an ID greater than existing products
                     Name = Guid.NewGuid().ToString(),
                     Inventory = i + 10,
                     Price = (decimal)(i * 3.14)
