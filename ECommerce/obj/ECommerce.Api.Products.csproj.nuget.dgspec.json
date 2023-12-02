@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\2134609\\Downloads\\20231125181620_Chapter3(1)\\Chapter3\\ECommerce\\ECommerce.Api.Products.csproj": {}
+    "C:\\Users\\kevin\\OneDrive\\Documents\\Chapter3\\ECommerce\\ECommerce.Api.Products.csproj": {}
   },
   "projects": {
-    "C:\\Users\\2134609\\Downloads\\20231125181620_Chapter3(1)\\Chapter3\\ECommerce\\ECommerce.Api.Products.csproj": {
+    "C:\\Users\\kevin\\OneDrive\\Documents\\Chapter3\\ECommerce\\ECommerce.Api.Products.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\2134609\\Downloads\\20231125181620_Chapter3(1)\\Chapter3\\ECommerce\\ECommerce.Api.Products.csproj",
+        "projectUniqueName": "C:\\Users\\kevin\\OneDrive\\Documents\\Chapter3\\ECommerce\\ECommerce.Api.Products.csproj",
         "projectName": "ECommerce.Api.Products",
-        "projectPath": "C:\\Users\\2134609\\Downloads\\20231125181620_Chapter3(1)\\Chapter3\\ECommerce\\ECommerce.Api.Products.csproj",
-        "packagesPath": "C:\\Users\\2134609\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\2134609\\Downloads\\20231125181620_Chapter3(1)\\Chapter3\\ECommerce\\obj\\",
+        "projectPath": "C:\\Users\\kevin\\OneDrive\\Documents\\Chapter3\\ECommerce\\ECommerce.Api.Products.csproj",
+        "packagesPath": "C:\\Users\\kevin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kevin\\OneDrive\\Documents\\Chapter3\\ECommerce\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\2134609\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\kevin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -55,6 +56,10 @@
             "Microsoft.EntityFrameworkCore.InMemory": {
               "target": "Package",
               "version": "[3.1.32, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.18.1, )"
             }
           },
           "imports": [
@@ -76,7 +81,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }
